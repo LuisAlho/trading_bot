@@ -37,6 +37,7 @@ const main = async () => {
             if (!routerPath) {
                 console.log(`No Arbitrage Currently Available\n`)
                 console.log(`-----------------------------------------\n`)
+                console.log('Router Path1')
                 isExecuting = false
                 return
             }
@@ -66,6 +67,7 @@ const main = async () => {
             if (!routerPath) {
                 console.log(`No Arbitrage Currently Available\n`)
                 console.log(`-----------------------------------------\n`)
+                console.log('Router Path2')
                 isExecuting = false
                 return
             }
